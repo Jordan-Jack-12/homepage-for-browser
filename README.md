@@ -1,7 +1,7 @@
 ## Custom Home Page
 
 A custom home page for browser with some frequent used links.
-![screen shot image]("")
+![screen shot image]("[img/screenshot.png](https://github.com/Jordan-Jack-12/homepage-for-browser/blob/d26a729197d65333664b53243440eb4f256a4be9/img/screenshot.png)")
 
 ### For using 
 - clone the repo.
