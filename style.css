@@ -1,0 +1,216 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+
+/* color variables */
+:root {
+  --bg_h: #1d2021;
+  --bg: #282828;
+  --bg_s: #32302f;
+  --bg1: #3c3836;
+  --bg2: #504945;
+  --bg3: #665c54;
+  --bg4: #7c6f64;
+
+  --fg: #fbf1c7;
+  --fg1: #ebdbb2;
+  --fg2: #d5c4a1;
+  --fg3: #bdae93;
+  --fg4: #a89984;
+
+  --red: #fb4934;
+  --green: #b8bb26;
+  --yellow: #fabd2f;
+  --blue: #83a598;
+  --purple: #d3869b;
+  --aqua: #8ec07c;
+  --gray: #928374;
+  --orange: #fe8019;
+
+  --red-dim: #cc2412;
+  --green-dim: #98971a;
+  --yellow-dim: #d79921;
+  --blue-dim: #458588;
+  --purple-dim: #b16286;
+  --aqua-dim: #689d6a;
+  --gray-dim: #a89984;
+  --orange-dim: #d65d0e;
+}
+
+/* css config */
+
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-image: url("./img/wallpapersden.com_anime-landscape-hd-2022-digital_2000x1334.jpg");
+  background-repeat: none;
+  background-size: auto;
+  background-position: center;
+  font-family: "Fira Code", monospace;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: inline-block;
+  width: 100%;
+}
+.header {
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+}
+.header-left {
+  flex: 1;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#greeting {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: bold;
+  background-color: #3c3836ab;
+  padding: 0px 30px;
+  border-radius: 6px;
+  margin-left: 30px;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+  background-color: #3c3836ab;
+  border-radius: 50%;
+  border-width: 10px;
+  border-color: #8ec07c;
+}
+
+#time {
+  font-size: 60px;
+  background-color: #3c3836ab;
+  padding: 0px 30px;
+  border-radius: 6px;
+  display: block;
+}
+
+#date {
+  font-size: 60px;
+  background-color: #3c3836ab;
+  padding: 0px 30px;
+  border-radius: 6px;
+  display: none;
+}
+
+.bookmarks {
+  display: flex;
+  flex-direction: row;
+}
+.google {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #3c3836ab;
+  border-radius: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.education {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #3c3836ab;
+  border-radius: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.work {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #3c3836ab;
+  border-radius: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.entertainment {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #3c3836ab;
+  border-radius: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.links {
+  padding: 10px;
+  background-color: #d3869b;
+  border-radius: 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #282828;
+  text-align: center;
+}
+.headings {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+.links:hover {
+  padding: 10px;
+  background-color: #b16286;
+  border-radius: 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fbf1c7;
+  text-align: center;
+}
+
+form {
+  background-color: #3c3836ab;
+  width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px auto;
+}
+
+input {
+  all: unset;
+  font-size: 16px;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 0.7; 
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+svg {
+  color: #fff;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}

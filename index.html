@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./img/icons8-account-50.ico" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Welcome</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header-left">
+          <div class="icon">
+            <img src="./img/icons8-account-100.png" alt="account" />
+          </div>
+          <div id="greeting">Hi, User!</div>
+        </div>
+        <div class="header-right" onclick="changeitem()">
+          <div id="time"></div>
+          <div id="date"></div>
+        </div>
+      </div>
+      <form id="form" autocomplete="off">
+        <input type="search" id="query" name="q" placeholder="Search..." />
+        <button>
+          <svg viewBox="0 0 1024 1024">
+            <path
+              class="path1"
+              d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path>
+          </svg>
+        </button>
+      </form>
+      <div class="bookmarks">
+        <div class="google">
+          <div class="headings">Google</div>
+          <a class="links" target="_blank" href="https://google.com">Google</a>
+          <a class="links" target="_blank" href="https://keep.google.com/"
+            >Notes</a
+          >
+          <a class="links" target="_blank" href="https://drive.google.com/"
+            >Drive</a
+          >
+          <a class="links" target="_blank" href="https://mail.google.com/"
+            >Gmail</a
+          >
+          <a class="links" target="_blank" href="https://youtube.com"
+            >Youtube</a
+          >
+        </div>
+        <div class="education">
+          <div class="headings">Education</div>
+          <a class="links" target="_blank" href="https://edx.org">Edx</a>
+          <a class="links" target="_blank" href="https://www.khanacademy.org/"
+            >Khan Academy</a
+          >
+        </div>
+        <div class="work">
+          <div class="headings">Work</div>
+          <a class="links" target="_blank" href="https://itch.io">Itch.io</a>
+          <a class="links" target="_blank" href="https://medium.com/">Medium</a>
+          <a class="links" target="_blank" href="https://chat.openai.com/"
+            >ChatGPT</a
+          >
+          <a class="links" target="_blank" href="https://github.com">Github</a>
+        </div>
+        <div class="entertainment">
+          <div class="headings">Entertainment</div>
+          <a class="links" target="_blank" href="https://discord.com/"
+            >Discord</a
+          >
+          <a class="links" target="_blank" href="https://reddit.com">Reddit</a>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
