@@ -1,6 +1,7 @@
 ## Custom Home Page
 
 A custom home page for browser with some frequent used links.
+![screen shot image]("")
 
 ### For using 
 - clone the repo.
